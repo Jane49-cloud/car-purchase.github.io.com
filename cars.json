@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "White Coupe",
+        "price": 101.99,
+        "image": { "fields": { "file": { "url": "product-1.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "blue coupe",
+        "price": 102.99,
+        "image": { "fields": { "file": { "url": "product-2.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Black Porch Sedan",
+        "price": 122.99,
+        "image": { "fields": { "file": { "url": "product-3.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "black shelby",
+        "price": 212.99,
+        "image": { "fields": { "file": { "url": "product-4.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "BMW coupe",
+        "price": 88.99,
+        "image": { "fields": { "file": { "url": "product-5.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Audi coupe",
+        "price": 300.99,
+        "image": { "fields": { "file": { "url": "product-6.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Ferrari",
+        "price": 415.99,
+        "image": { "fields": { "file": { "url": "product-7.jpeg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "lamborghini Sports car",
+        "price": 33.99,
+        "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+      }
+    }
+  ]
+}

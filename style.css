@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+@keyframes animate {
+     from {background-color: rgb(210, 81, 30);}
+     to {background-color:rgb(136, 65, 14);}
+    
+}
+/* .Section{
+    background-color: rgb(197, 27, 112);
+} */
+.cart-header{
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+     height:100px ;
+    position: -webkit-sticky;
+    position: sticky;
+    animation: animate 5s  infinite;
+
+}
+.text{
+    text-align: center;
+    padding: 10px;
+}
+ span{
+    position: relative;
+    top:30px ;
+}
+.cart-header a{
+    color: rgb(210, 81, 30);
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+   }
+    .cover-photo{
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  
+  width: 100%;
+  height: auto;
+        
+    }
+    .top{
+    background-image: url("gallery.jpg");background-repeat: no-repeat;
+    height: 500px;
+    width:100%;
+    background-size: cover;
+
+    }
+.top button{
+    width: 30%;
+    height: 100px;
+    background-color: #d2691e;
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
+.top button:hover{
+    opacity: 0.6;
+    background-color: white;
+}
+.container .text{
+    margin: auto;
+}
+
+main{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+           
+}
+.product img{
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+span button{
+    background-color: #d2691e;
+    border: none;
+    color: white;
+    height: 30px;
+    position: relative;
+    bottom: 120px;
+    left: 240px;
+    width: 60px;
+}
+footer{
+    background-color: rgb(94, 90, 74);
+    display: flex;
+    justify-content: space-around;
+ 
+}
+nav a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    color: #ffffff;
+}
+.contacts{
+    display: grid;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}
+.contacts li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none; 
+    padding: 10px;  
+    
+}
+.contacts li a{
+    color: red;
+padding: 5px;
+background-color: white;
+ border: solid 3px hsl(258, 88%, 46%);
+box-sizing: border-box;
+border-radius: 5px;
+}
